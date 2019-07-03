@@ -1,10 +1,10 @@
-a,b,c=map(int,input().split)
+a,b,p=map(int,input().split)
 if(a>b):
-    if(a>c):
+    if(a>p):
         print(a)
 else:
-    if(b>c):
+    if(b>p):
         print(b)
     else:
-        print(c)
+        print(p)
     
