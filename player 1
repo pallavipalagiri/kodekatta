@@ -1,0 +1,10 @@
+p=input()
+b=len(p)
+l=[]
+for i in p:
+  l.append(i)
+n=[]
+n=l[::-1]
+for j in range(b):
+    print(n[j],end="")
+  
